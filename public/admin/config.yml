@@ -6,7 +6,7 @@ media_folder: 'public/img/'
 collections:
   - name: 'index'
     label: 'Home Page'
-    folder: '/content/index.njk'
+    folder: '/content/'
     slug: '{{slug}}'
     create: false
     editor:
