@@ -27,7 +27,7 @@ collections:
       - { label: 'Solution', name: 'solution', widget: 'string' }
       - { label: 'Solution Banner', name: 'solutionbanner', widget: 'image' }
       - { label: 'Solution Text 1', name: 'solutiontext1', widget: 'string' }
-      - { label: 'Solution Text 3', name: 'solutiontext2', widget: 'string' }
+      - { label: 'Solution Text 2', name: 'solutiontext2', widget: 'string' }
       - { label: 'Peform', name: 'peform', widget: 'string' }
       - { label: 'Peform  Banner', name: 'peformbanner', widget: 'image' }
       - { label: 'Peform 1', name: 'peform1', widget: 'string' }
@@ -48,7 +48,7 @@ collections:
       - { label: 'Order Link 3', name: 'orderlink3', widget: 'string' }
       - { label: 'Order Banner', name: 'orderbanner', widget: 'image' }
       - { label: 'Support Banner', name: 'supportbanner', widget: 'image' }
-  #    - { label: 'Lastest Post Display', name: 'numberOfLatestPostsToShow', widget: 'number' }
+      - { label: 'Lastest Post Display', name: 'numberOfLatestPostsToShow', widget: 'number' }
   - name: 'blog'
     label: 'Blog'
     folder: '/content/blog/'
