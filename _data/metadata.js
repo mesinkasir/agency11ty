@@ -1,6 +1,6 @@
 module.exports = {
 	"title": "OPTIMASI WEBSITE",
-	"url": "http://localhost:8080/",
+	"url": "https://optimasiwebsite.axcpra.com",
 	"language": "id",
 	"description": "PERCEPAT ANALISA DAN INJECT AUTO SEO WEBSITE MU",
 	"company": "Axcora Technology",
