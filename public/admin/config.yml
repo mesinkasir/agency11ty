@@ -17,7 +17,7 @@ collections:
       - { label: 'Intro Text 1', name: 'introtext1', widget: 'string' }
       - { label: 'Intro Text 2', name: 'introtext2', widget: 'string' }
       - { label: 'Intro Text 3', name: 'introtext3', widget: 'string' }
-      - { label: 'Concept', name: 'intro', widget: 'string' }
+      - { label: 'Concept', name: 'concept', widget: 'string' }
       - { label: 'Concept 1', name: 'concept1', widget: 'string' }
       - { label: 'Concept Text 1', name: 'concepttext1', widget: 'string' }
       - { label: 'Concept 2', name: 'concept2', widget: 'string' }
