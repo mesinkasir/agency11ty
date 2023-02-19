@@ -48,7 +48,7 @@ collections:
       - { label: 'Order Link 3', name: 'orderlink3', widget: 'string' }
       - { label: 'Order Banner', name: 'orderbanner', widget: 'image' }
       - { label: 'Support Banner', name: 'supportbanner', widget: 'image' }
-      - { label: 'Lastest Post Display', name: 'numberOfLatestPostsToShow', widget: 'number' }
+  #    - { label: 'Lastest Post Display', name: 'numberOfLatestPostsToShow', widget: 'number' }
   - name: 'blog'
     label: 'Blog'
     folder: '/content/blog/'
