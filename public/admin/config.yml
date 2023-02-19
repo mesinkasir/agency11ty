@@ -2,11 +2,11 @@ backend:
   name: git-gateway
   repo: mesinkasir/agency11ty
   branch: main # Branch to update (optional; defaults to master)
-media_folder: 'public'
+media_folder: 'public/img/'
 collections:
   - name: 'index'
     label: 'Home Page'
-    folder: '/content/'
+    folder: '/content/index.njk'
     slug: '{{slug}}'
     create: false
     editor:
@@ -49,6 +49,7 @@ collections:
       - { label: 'Order Banner', name: 'orderbanner', widget: 'image' }
       - { label: 'Support Banner', name: 'supportbanner', widget: 'image' }
       - { label: 'Lastest Post Display', name: 'numberOfLatestPostsToShow', widget: 'number' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
     label: 'Blog'
     folder: '/content/blog/'
