@@ -27,11 +27,11 @@ Backend
 
 Blog List
 
-![headless cms static site generator eleventy](headless cms netlify eleventy 11ty blog.webp)
+![headless cms static site generator eleventy](headlesscmsnetlifyeleventy11tyblog.webp)
 
 Update Content
 
-![headless cms static site generator eleventy](headless cms netlify eleventy 11ty.webp)
+![headless cms static site generator eleventy](headlesscmsnetlifyeleventy11ty.webp)
 
 
 If you want built modern site with 11ty eleventy so [Hire me →](https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll)
