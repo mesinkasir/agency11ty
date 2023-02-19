@@ -6,8 +6,8 @@ media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: '_posts/'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    folder: '/content/blog/'
+    slug: '{{slug}}'
     create: true
     editor:
       preview: false
