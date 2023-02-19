@@ -2,8 +2,53 @@ backend:
   name: git-gateway
   repo: mesinkasir/agency11ty
   branch: main # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+media_folder: 'public'
 collections:
+  - name: 'index'
+    label: 'Home Page'
+    folder: '/content/index.njk'
+    slug: '{{slug}}'
+    create: false
+    editor:
+      preview: false
+    fields:
+      - { label: 'Banner Image', name: 'banner', widget: 'image' }
+      - { label: 'Intro', name: 'intro', widget: 'string' }
+      - { label: 'Intro Text 1', name: 'introtext1', widget: 'string' }
+      - { label: 'Intro Text 2', name: 'introtext2', widget: 'string' }
+      - { label: 'Intro Text 3', name: 'introtext3', widget: 'string' }
+      - { label: 'Concept', name: 'intro', widget: 'string' }
+      - { label: 'Concept 1', name: 'concept1', widget: 'string' }
+      - { label: 'Concept Text 1', name: 'concepttext1', widget: 'string' }
+      - { label: 'Concept 2', name: 'concept2', widget: 'string' }
+      - { label: 'Concept Text 2', name: 'concepttext2', widget: 'string' }
+      - { label: 'Concept 3', name: 'concept3', widget: 'string' }
+      - { label: 'Concept Text 3', name: 'concepttext3', widget: 'string' }
+      - { label: 'Solution', name: 'solution', widget: 'string' }
+      - { label: 'Solution Banner', name: 'solutionbanner', widget: 'image' }
+      - { label: 'Solution Text 1', name: 'solutiontext1', widget: 'string' }
+      - { label: 'Solution Text 3', name: 'solutiontext2', widget: 'string' }
+      - { label: 'Peform', name: 'peform', widget: 'string' }
+      - { label: 'Peform  Banner', name: 'peformbanner', widget: 'image' }
+      - { label: 'Peform 1', name: 'peform1', widget: 'string' }
+      - { label: 'Peform Text 1', name: 'peformtext1', widget: 'string' }
+      - { label: 'Peform 2', name: 'peform2', widget: 'string' }
+      - { label: 'Peform Text 2', name: 'peformtext2', widget: 'string' }
+      - { label: 'Order 1', name: 'order1', widget: 'string' }
+      - { label: 'Order Price 1', name: 'orderprice1', widget: 'string' }
+      - { label: 'Order Text 1', name: 'ordertext1', widget: 'string' }
+      - { label: 'Order Link 1', name: 'orderlink1', widget: 'string' }
+      - { label: 'Order 2', name: 'order2', widget: 'string' }
+      - { label: 'Order Price 2', name: 'orderprice2', widget: 'string' }
+      - { label: 'Order Text 2', name: 'ordertext2', widget: 'string' }
+      - { label: 'Order Link 2', name: 'orderlink2', widget: 'string' }
+      - { label: 'Order 3', name: 'order3', widget: 'string' }
+      - { label: 'Order Price 3', name: 'orderprice3', widget: 'string' }
+      - { label: 'Order Text 3', name: 'ordertext3', widget: 'string' }
+      - { label: 'Order Link 3', name: 'orderlink3', widget: 'string' }
+      - { label: 'Order Banner', name: 'orderbanner', widget: 'image' }
+      - { label: 'Support Banner', name: 'supportbanner', widget: 'image' }
+      - { label: 'Lastest Post Display', name: 'numberOfLatestPostsToShow', widget: 'number' }
   - name: 'blog'
     label: 'Blog'
     folder: '/content/blog/'
@@ -13,8 +58,21 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Cover Image', name: 'cover', widget: 'cover' }
+      - { label: 'Cover Image', name: 'cover', widget: 'image' }
+      - { label: "Tags", name: "tags", widget: "string", default: ["post"] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'about'
+    label: 'About'
+    folder: '/content/about/index.md'
+    slug: '{{slug}}'
+    create: false
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Cover Image', name: 'cover', widget: 'image' }
       - { label: "Tags", name: "tags", widget: "string", default: ["post"] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
