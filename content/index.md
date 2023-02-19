@@ -38,7 +38,7 @@ supportbanner: /img/dukunganoptimtimasiwebsiteseo.webp
 eleventyNavigation:
   key: Home
   order: 1
-numberOfLatestPostsToShow: 4
+numberOfLatestPostsToShow: 3
 layout: layouts/home.njk
 ---
 {% include "widget/contenthome.njk" %}

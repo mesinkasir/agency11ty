@@ -11,25 +11,18 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
+		"url": "git://github.com/mesinkasir/agency11ty.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Creativitas",
+		"email": "creativebydre@gmail.com",
+		"url": "hhttps://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll"
 	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=14"
 	},
-	"funding": {
-		"type": "opencollective",
-		"url": "https://opencollective.com/11ty"
-	},
-	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
-	},
-	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+	"homepage": "https://optimasiwebsite.axcora.com/",
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.0",
 		"@11ty/eleventy-img": "^3.0.0",
