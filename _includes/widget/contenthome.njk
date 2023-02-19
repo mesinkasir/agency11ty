@@ -1,0 +1,19 @@
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h3 class="col-md-12 mt-5 text-center"><strong><a href="/" class="text-white">Blog Update.</a></strong></h3>
+<p class="col-md-12 mt-5 text-center text-white">Layanan pengembangan website dengan technology modern terbaru cepat dan full SEO.</p>
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p class="text-center p-3">{{ morePosts }} {% if morePosts != 1 %}s{% endif %} <a href="/blog/" class="btn btn-light">Explore all blog</a>.</p>
+{% endif %}
+{# List every content page in the project #}
+{#
+<ul>
+{%- for entry in collections.all %}
+<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+{%- endfor %}
+</ul>
+#}

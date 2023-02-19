@@ -1,0 +1,14 @@
+<body>
+<div class="container-fluid">
+{% include "widget/header.njk" %}
+{% include "widget/banner.njk" %}
+{% include "widget/optimasi.njk" %}
+{% include "widget/konsep.njk" %}
+{% include "widget/solusi.njk" %}
+{% include "widget/peforma.njk" %}
+<main class="row blog">{{ content | safe }}</main>
+{% include "widget/footerbanner.njk" %}
+{% include "widget/footer.njk" %}
+</div>
+</body>
+</html>
