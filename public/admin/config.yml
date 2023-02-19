@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: mesinkasir/agency11ty
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
