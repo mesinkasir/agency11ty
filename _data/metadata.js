@@ -5,8 +5,8 @@ module.exports = {
 	"description": "PERCEPAT ANALISA DAN INJECT AUTO SEO WEBSITE MU",
 	"company": "Axcora Technology",
 	"address": "Ruko Pasar Wisata Juanda Q.07 - Sidoarjo - East Java - Indonesia",
-	"whatsapp": "6285646104747",
-	"phone": "62895339403223 ",
+	"whatsapp": "62895339403223",
+	"phone": "62895339403223",
 	"email": "axcora@gmail.com",
 	"cover": "/img/eleventy.png",
 	"author": {
